@@ -4,9 +4,8 @@ const main=(init,trgt)=>{
     let initial=init
     let target=trgt
     let current=initial
-    let step=[]
-    step.push(current)
-
+    let step=[current]
+    
     let posible=[]
     let lastMove=1
     let firstMove=lastMove
