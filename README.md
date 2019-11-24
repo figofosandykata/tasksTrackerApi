@@ -15,13 +15,13 @@ Output:
 Step 1: map(reject({Yellow})
 
 # Solution
-I created my solution in branch novWeek4
-First : I created file posible.js contains all posibility function
-Second : I created file solution.js contains function to trying all posibility
+I created my solution in branch novWeek4. 
+First : I created file posible.js contains all posibility function. 
+Second : I created file solution.js contains function to trying all posibility. 
 Third : For each level i created own solutions named solutionLevelX.js based on solution.js
 
 # Problem
-I made many repetitive functions & i fix it when I realize it, so maybe there is still repetitive functions
+I made many repetitive functions & i fix it when I realize it, so maybe there is still repetitive functions. 
 All posibilty function work, but when i trying all on solution.js, i got a bug for function MapReverse,
 if i fix it, it will reverse the initial state, so it impacts to other, so i'll give output 'No Solution or the solution need map reverse'
 
@@ -29,5 +29,5 @@ if i fix it, it will reverse the initial state, so it impacts to other, so i'll 
 node log.js
 
 # Note 
-I created file excercise.test.js to test all program with JEST
+I created file excercise.test.js to test all program with JEST.
 I created file log.js to test all program and get the output from console
