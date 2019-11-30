@@ -1,0 +1,20 @@
+{
+  "name": "mypublicchat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab -v"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/code": "^7.0.0",
+    "@hapi/hapi": "^18.4.0",
+    "@hapi/inert": "^5.2.2",
+    "@hapi/joi": "^15.1.1",
+    "@hapi/lab": "^21.0.0",
+    "nodemon": "^2.0.1",
+    "socket.io": "^2.3.0"
+  }
+}
