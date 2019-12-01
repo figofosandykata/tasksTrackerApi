@@ -44,5 +44,5 @@ Make sure you have already installed redis
 ### 'redis-server'
 ### 'npm start'
 
-#### Notes
+### Notes
 Test cases have not been made
