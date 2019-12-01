@@ -1,7 +1,9 @@
 # Creating Multiple Chat's room
 
 ## The approach that i used 
-HapiJs for create server to serve the route or services,__
+HapiJs for create server to serve the route or services,
+
+
 \Socket.io for creating websocket,
 \Redis for keep messages
 
