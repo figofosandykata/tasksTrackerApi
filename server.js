@@ -1,8 +1,7 @@
 const Hapi=require('@hapi/hapi')
 const Joi=require('@hapi/joi')
 const Inert=require('@hapi/inert')
-const sendMessage=require('redis').createClient()
-const myRoom=require('redis').createClient()
+const publishSuscribe=require('redis').createClient()
 
 const init= async()=>{
     const server=Hapi.server({
@@ -34,24 +33,43 @@ const init= async()=>{
         method:'GET',
         path:'/load',
         handler:(request,h)=>{
-            const getMessages=new Promise((resolve,reject)=>{
-                myRoom.lrange('myRoom',0,-1,(err,data)=>{
-                    let messages=[]
-                    messages=data.map(message=>JSON.parse(message))
-                    resolve(messages)
+            const getChats=new Promise((resolve,reject)=>{
+                publishSuscribe.lrange('channelsChat',0,-1,(err,data)=>{
+                    let chats=[]
+                    chats=data.map(chat=>JSON.parse(chat))
+                    resolve(chats)
                 })
             })
-            return getMessages
+            return getChats
+        }
+    })
+
+    server.route({
+        method:'GET',
+        path:'/channels',
+        handler:(request,h)=>{
+            const getChannels=new Promise((resolve,reject)=>{
+                publishSuscribe.lrange('channels',0,-1,(err,data)=>{
+                    let channelList=[]
+                    channelList=data.map(channel=>JSON.parse(channel))
+                    resolve(channelList)
+                })
+            })
+            return getChannels
         }
     })
 
     io.on('connection',socket=>{
-        let userName 
+        let userName,channel 
         let chatDetail={}
+        socket.on('channel',thisChannel=>{
+            channel=thisChannel
+            Object.assign(chatDetail,{channel:thisChannel})
+        })
         socket.on('name',name=>{
             Object.assign(chatDetail,{name:name})
             userName=name
-            console.log(`${name} is connected`)
+            console.log(`${name} is connected in channel ${channel}`)
         })
         socket.on('time',time=>{
             Object.assign(chatDetail,{time:time})
@@ -59,8 +77,8 @@ const init= async()=>{
         socket.on('message',message=>{
             Object.assign(chatDetail,{message:message})
             io.emit('chat detail',chatDetail)
-            sendMessage.rpush('myRoom',JSON.stringify(chatDetail))
-            sendMessage.publish('newRoom',JSON.stringify(chatDetail))
+            publishSuscribe.rpush('channels',JSON.stringify(channel))
+            publishSuscribe.rpush('channelsChat',JSON.stringify(chatDetail))
         })
         socket.on('disconnect',()=>{
             console.log(`${userName} is disconnected`)

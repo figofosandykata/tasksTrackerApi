@@ -2,8 +2,9 @@
   "name": "mypublicchat",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "start": "nodemon server.js",
     "test": "lab -v"
   },
   "author": "",
