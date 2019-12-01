@@ -1,6 +1,7 @@
 $(document).ready(function (){
   let name,thisTime,message
   let channel='lobby'
+  $('#myChannel').html(`${channel}`)
   const socket=io()
   const leadZero=(num)=>{
     if(num<10) {
@@ -26,11 +27,11 @@ $(document).ready(function (){
   }
   const getChannel=()=>{$.get('/channels',data=>{
     if(data.length==0){
-        name=window.prompt('What is your name ?')
-        message=window.prompt('What is your first message ?')
-        Cookies.set('name',name)
-        sendMessage(channel,name,message)
-        return
+      name=window.prompt('What is your name ?')
+      message=window.prompt('What is your first message ?')
+      Cookies.set('name',name)
+      sendMessage(channel,name,message)
+      location.reload(true)
     }
     const channels=[]
     data.forEach(room => {
@@ -51,6 +52,7 @@ $(document).ready(function (){
         channel=room
         socket.emit('channel',channel)
         socket.emit('name',name)
+        $('#myChannel').html(`${channel}`)
         loadMessage()
       })  
     })
@@ -73,9 +75,15 @@ $(document).ready(function (){
         alert(`Channel's name must don't have any punctuantion or whitespace`)
       } else {
         message=window.prompt('What is your message ?')
-        sendMessage(channel,name,message)
-        getChannel()
-        loadMessage()
+        const sendingMessage=new Promise((resolve,reject)=>{
+          resolve(sendMessage(channel,name,message))
+        })
+        sendingMessage
+          .then(()=>{
+            getChannel()
+            $('#myChannel').html(`${channel}`)
+            loadMessage()
+          })
       }
     }
   })
@@ -92,7 +100,11 @@ $(document).ready(function (){
     $('#messages').append($(`<li><p>${messageDetail.time} ${messageDetail.name}</p><p>${messageDetail.message}</p></li>`))
   }
   socket.on('chat detail',chatDetail=>{
-    renderingMessage(chatDetail)
+    if(chatDetail.channel!=channel) {
+      getChannel()
+    } else {
+      renderingMessage(chatDetail)
+    }
   })
   name=Cookies.get('name')
   if(!name) {

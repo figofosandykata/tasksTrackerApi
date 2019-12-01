@@ -11,8 +11,8 @@
       #messages { list-style-type: none; margin: 0; padding: 0; }
       #messages li { padding: 5px; }
       #messages li:nth-child(odd) { background: #eee; }
-      #left { position: fixed; top: 0; bottom: 0; left: 0; width: 10%; background-color:black; color: white;}
-      #right { position: absolute; top: 0; bottom: 0; right:0; width: 90%;}
+      #left { position: fixed; top: 0; bottom: 0; left: 0; width: 20%; background-color:black; color: white;}
+      #right { position: fixed; top: 0; bottom: 0; right:0; width: 80%;}
     </style>
   </head>
   <body>
@@ -22,12 +22,15 @@
     <script src="/client.js"></script>
     <div id='left'>
       <h2>Channels :</h2>
-      <input id='addChannel' type="button" value=" + " style="position: absolute; top:3px; right: 10px;"/>
+      <input id='addChannel' type="button" value=" + " style="float: left; position: absolute; top:3px; right: 10px;"/>
       <ul id='channels'>
         <li><a href='' id='lobby'><h3>#lobby</h3></a></li>
       </ul>
     </div>
     <div id='right'>
+      <div style="position: fixed; right: 0; top: 0; background-color: black; color: white; padding: 10px; border-radius: 10px;">
+        Channel : <b id="myChannel"></b>
+      </div>
       <ul id="messages"></ul>
       <form action="">
         <input id="m" autocomplete="off" /><button>Send</button>
