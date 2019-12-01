@@ -3,9 +3,9 @@
 ## The approach that i used 
 HapiJs for create server to serve the route or services,
 
+Socket.io for creating websocket,
 
-\Socket.io for creating websocket,
-\Redis for keep messages
+Redis for keep messages
 
 ## The reason why i use that way to create my project
 ### Why Hapi Js
