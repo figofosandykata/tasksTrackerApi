@@ -5,36 +5,41 @@ HapiJs for create server to serve the route or services,
 
 Socket.io for creating websocket,
 
-Redis for keep messages
+Redis for keeping the messages
 
 ## The reason why i use that way to create my project
 ### Why Hapi Js
 Hapi enables you to build scalable APIs.
-\It is an excellent choice for building Representational State Transfer (REST)
-\APIs because it provides you with
-\routing, input, output validation, and caching.
+It is an excellent choice for building Representational State Transfer (REST)
+APIs because it provides you with
+routing, input, output validation, and caching.
 ### Why socket.io
 Because it allows synchronized communication 
-\to take place simply within your app
+to take place simply within your app
 ### Why Redis
 Socket.io only handles distributing messages,
-\if people disconnect from the chat they will miss any subsequent messages
-\and when anyone connects there will see no history ...
-\so we need a place to store messages for retrieval
-\and Redis provided it
+if people disconnect from the chat they will miss any subsequent messages
+and when anyone connects there will see no history ...
+so we need a place to store messages for retrieval
+and Redis provided it
 
 ## Problem that frequently appear when i use that way
 Finding reference for learning jquery, and redis
-\Fixing some bugs, like chat inject some tags html
-\or chat/message send to another room/channel
-\and anything else
-\Creating some test cases
+
+Fixing some bugs, like chat inject some tags html
+or chat/message send to another room/channel
+and anything else
+
+Creating some test cases
 
 ## Step to run code
 On Windows :
-\Download source code, from https://gitlab.com/figo.fosandy/weeklyexercise/-/archive/novWeek5/weeklyexercise-novWeek5.zip
-\Extract and change directory to the excracted file
-\Make sure you have already installed redis
+
+Download source code, from https://gitlab.com/figo.fosandy/weeklyexercise/-/archive/novWeek5/weeklyexercise-novWeek5.zip
+
+Extract and change directory to the excracted file
+
+Make sure you have already installed redis
 ### 'npm install'
 ### 'redis-server'
 ### 'npm start'
