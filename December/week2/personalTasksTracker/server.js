@@ -59,7 +59,16 @@ const start=async(url)=>{
         path:'/api/tasks',
         handler:tasksGetHandler,
         options:{
-            auth:'simple'
+            auth:'simple',
+            validate:{
+                query:{
+                    sort:Joi.string(),
+                    offset:Joi.number().integer().min(0),
+                    limit:Joi.number().integer().min(1),
+                    filter:Joi.object(),
+                    dueDate:Joi.date()
+                }
+            }
         }
     })
 
@@ -68,7 +77,12 @@ const start=async(url)=>{
         path:'/api/tasks/{id}',
         handler:tasksDetailGetHandler,
         options:{
-            auth:'simple'
+            auth:'simple',
+            validate:{
+                params:{
+                    id:Joi.number().integer().min(1)
+                }
+            }
         }
     })
 
@@ -77,7 +91,17 @@ const start=async(url)=>{
         path:'/api/tasks',
         handler:tasksPostHandler,
         options:{
-            auth:'simple'
+            auth:'simple',
+            validate:{
+                payload:{
+                    id:Joi.forbidden(),
+                    title:Joi.string().regex(/^[a-zA-Z]+\s*[a-zA-Z]+$/).required(),
+                    description:Joi.string().regex(/^[a-zA-Z]+\s*[a-zA-Z]+$/).required(),
+                    dueDate:Joi.date().min(Date.now()).required(),
+                    comments:Joi.array().required(),
+                    status:Joi.forbidden()
+                }
+            }
         }
     })
 
@@ -86,7 +110,20 @@ const start=async(url)=>{
         path:'/api/tasks/{id}',
         handler:tasksPutHandler,
         options:{
-            auth:'simple'
+            auth:'simple',
+            validate:{
+                params:{
+                    id:Joi.number().integer()
+                },
+                payload:{
+                    id:Joi.number().integer(),
+                    title:Joi.string().regex(/^[a-zA-Z]+\s*[a-zA-Z]+$/),
+                    description:Joi.string().regex(/^[a-zA-Z]+\s*[a-zA-Z]+$/),
+                    dueDate:Joi.date().min(Date.now()),
+                    comments:Joi.array(),
+                    status:Joi.forbidden()
+                }
+            }
         }
     })
 
@@ -95,7 +132,12 @@ const start=async(url)=>{
         path:'/api/tasks/{id}',
         handler:tasksDeleteHandler,
         options:{
-            auth:'simple'
+            auth:'simple',
+            validate:{
+                params:{
+                    id:Joi.number().integer()
+                }
+            }
         }
     })
 
