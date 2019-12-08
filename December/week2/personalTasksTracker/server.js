@@ -127,8 +127,8 @@ const start=async(url)=>{
             validate:{
                 payload:{
                     id:Joi.forbidden(),
-                    title:Joi.string().regex(/^[a-zA-Z]+(\s*[a-zA-Z]+)*$/).required(),
-                    description:Joi.string().regex(/^[a-zA-Z]+(\s*[a-zA-Z]+)*$/).required(),
+                    title:Joi.string().regex(/^[a-zA-Z]+\s*[a-zA-Z]+$/).required(),
+                    description:Joi.string().regex(/^[a-zA-Z]+\s*[a-zA-Z]+$/).required(),
                     dueDate:Joi.date().min(Date.now()).required(),
                     comments:Joi.array().required(),
                     status:Joi.forbidden()
@@ -148,9 +148,9 @@ const start=async(url)=>{
                     id:Joi.number().integer()
                 },
                 payload:{
-                    id:Joi.forbidden(),
-                    title:Joi.string().regex(/^[a-zA-Z]+(\s*[a-zA-Z]+)*$/),
-                    description:Joi.string().regex(/^[a-zA-Z]+(\s*[a-zA-Z]+)*$/),
+                    id:Joi.number().integer(),
+                    title:Joi.string().regex(/^[a-zA-Z]+\s*[a-zA-Z]+$/),
+                    description:Joi.string().regex(/^[a-zA-Z]+\s*[a-zA-Z]+$/),
                     dueDate:Joi.date().min(Date.now()),
                     comments:Joi.array(),
                     status:Joi.forbidden()
