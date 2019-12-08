@@ -24,17 +24,49 @@ const validate=async(request,username,password)=>{
     return {isValid,credentials}
 }
 
+const getDateLog=(date)=>{
+    const thisDate=new Date(date)
+    let year=thisDate.getFullYear()
+    let month=thisDate.getMonth()
+    let day=thisDate.getDate()
+    year=year>9?year:`0${year}`
+    month=month>9?month:`0${month}`
+    day=day>9?day:`0${day}`
+    return `logs/${year}${month}${day}.log`
+}
+
 const start=async(url)=>{
     module.exports={url}
-    const {rootHandler,tasksGetHandler,tasksDetailGetHandler,tasksPostHandler,tasksPutHandler,tasksDeleteHandler}=require('./handler')
+    const {rootHandler,tasksGetHandler,tasksDetailGetHandler,tasksPostHandler,tasksPutHandler,tasksDeleteHandler,getDetail}=require('./handler')
     const server=Hapi.server({
         port:1207,
         host:'127.0.0.1',
         query:{
             parser:(query)=>qs.parse(query)
-        }
+        },
+        cache:[
+            {
+                name:`tasksCache`,
+                provider:{
+                    constructor:CatboxRedis,
+                    options:{
+                        host:`127.0.0.1`,
+                        port:6379
+                    }
+                }
+            }
+        ]
     })
     
+    server.method(`getDetail`,getDetail,{
+        cache:{
+            cache:`tasksCache`,
+            segment:`tasks`,
+            expiresIn:1000*60*10,
+            generateTimeout:3000
+        }
+    })
+
     await server.register(require('@hapi/basic'))
 
     await server.register({
@@ -42,7 +74,7 @@ const start=async(url)=>{
         options:{
             prettyPrint:process.env.NODE_ENV!=='production',
             redact:['req.headers.authorization'],
-            stream:'server.log'
+            stream:getDateLog(Date.now())
         }
     })
 
@@ -59,7 +91,16 @@ const start=async(url)=>{
         path:'/api/tasks',
         handler:tasksGetHandler,
         options:{
-            auth:'simple'
+            auth:'simple',
+            validate:{
+                query:{
+                    sort:Joi.string(),
+                    offset:Joi.number().integer().min(0),
+                    limit:Joi.number().integer().min(1),
+                    filter:Joi.object(),
+                    dueDate:Joi.date()
+                }
+            }
         }
     })
 
@@ -68,7 +109,12 @@ const start=async(url)=>{
         path:'/api/tasks/{id}',
         handler:tasksDetailGetHandler,
         options:{
-            auth:'simple'
+            auth:'simple',
+            validate:{
+                params:{
+                    id:Joi.number().integer().min(1)
+                }
+            }
         }
     })
 
@@ -77,7 +123,17 @@ const start=async(url)=>{
         path:'/api/tasks',
         handler:tasksPostHandler,
         options:{
-            auth:'simple'
+            auth:'simple',
+            validate:{
+                payload:{
+                    id:Joi.forbidden(),
+                    title:Joi.string().regex(/^[a-zA-Z]+(\s*[a-zA-Z]+)*$/).required(),
+                    description:Joi.string().regex(/^[a-zA-Z]+(\s*[a-zA-Z]+)*$/).required(),
+                    dueDate:Joi.date().min(Date.now()).required(),
+                    comments:Joi.array().required(),
+                    status:Joi.forbidden()
+                }
+            }
         }
     })
 
@@ -86,7 +142,20 @@ const start=async(url)=>{
         path:'/api/tasks/{id}',
         handler:tasksPutHandler,
         options:{
-            auth:'simple'
+            auth:'simple',
+            validate:{
+                params:{
+                    id:Joi.number().integer()
+                },
+                payload:{
+                    id:Joi.forbidden(),
+                    title:Joi.string().regex(/^[a-zA-Z]+(\s*[a-zA-Z]+)*$/),
+                    description:Joi.string().regex(/^[a-zA-Z]+(\s*[a-zA-Z]+)*$/),
+                    dueDate:Joi.date().min(Date.now()),
+                    comments:Joi.array(),
+                    status:Joi.forbidden()
+                }
+            }
         }
     })
 
@@ -95,7 +164,12 @@ const start=async(url)=>{
         path:'/api/tasks/{id}',
         handler:tasksDeleteHandler,
         options:{
-            auth:'simple'
+            auth:'simple',
+            validate:{
+                params:{
+                    id:Joi.number().integer()
+                }
+            }
         }
     })
 

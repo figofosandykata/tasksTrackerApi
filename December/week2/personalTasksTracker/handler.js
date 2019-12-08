@@ -68,9 +68,13 @@ const tasksGetHandler=async(request,h)=>{
     }
 }
 
+const getDetail=async(taskId)=>{
+    return Task.findOne({id:taskId,status:{$in:[`new`,`in-progress`]}},{_id:0,__v:0}).lean()
+}
+
 const tasksDetailGetHandler=async (request,h)=>{
     const taskId=request.params.id
-    const detail=await Task.findOne({id:taskId,status:{$in:[`new`,`in-progress`]}},{_id:0,__v:0}).lean()
+    const detail=await request.server.methods.getDetail(taskId)
     if(!detail){   
         return h.response(notFoundResponse).code(404)
     }
@@ -154,4 +158,4 @@ const tasksDeleteHandler=async (request,h)=>{
     }).code(202)
 }
 
-module.exports={rootHandler,tasksGetHandler,tasksDetailGetHandler,tasksPostHandler,tasksPutHandler,tasksDeleteHandler}
+module.exports={rootHandler,tasksGetHandler,tasksDetailGetHandler,tasksPostHandler,tasksPutHandler,tasksDeleteHandler,getDetail}
