@@ -249,3 +249,2311 @@
       }
     }
     responseTime: 11
+[1575783987041] [32mINFO [39m (748 on DESKTOP-5RAT955): [36mserver started[39m
+    created: 1575783986852
+    started: 1575783987036
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:748:k3wl3lwk"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575783987067] [32mINFO [39m (748 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575783987053:DESKTOP-5RAT955:748:k3wl3lwk:10000",
+      "method": "get",
+      "url": "http://127.0.0.1:1207/",
+      "headers": {
+        "user-agent": "shot",
+        "host": "127.0.0.1:1207"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": ""
+    }
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 20,
+        "accept-ranges": "bytes"
+      }
+    }
+    responseTime: 14
+[1575783987076] [32mINFO [39m (748 on DESKTOP-5RAT955): [36mserver stopped[39m
+    created: 1575783986852
+    started: 0
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:748:k3wl3lwk"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575783987158] [32mINFO [39m (748 on DESKTOP-5RAT955): [36mserver started[39m
+    created: 1575783987112
+    started: 1575783987156
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:748:k3wl3m3s"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575783987173] [32mINFO [39m (748 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575783987163:DESKTOP-5RAT955:748:k3wl3m3s:10000",
+      "method": "get",
+      "url": "http://127.0.0.1:1207/",
+      "headers": {
+        "user-agent": "shot",
+        "host": "127.0.0.1:1207"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": ""
+    }
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 20,
+        "accept-ranges": "bytes"
+      }
+    }
+    responseTime: 10
+[1575783987178] [32mINFO [39m (748 on DESKTOP-5RAT955): [36mserver stopped[39m
+    created: 1575783987112
+    started: 0
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:748:k3wl3m3s"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575792897550] [32mINFO [39m (4120 on DESKTOP-5RAT955): [36mserver started[39m
+    created: 1575792897338
+    started: 1575792897544
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:4120:k3wqela2"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575792897578] [32mINFO [39m (4120 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575792897562:DESKTOP-5RAT955:4120:k3wqela2:10000",
+      "method": "get",
+      "url": "http://127.0.0.1:1207/",
+      "headers": {
+        "user-agent": "shot",
+        "host": "127.0.0.1:1207"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": ""
+    }
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 20,
+        "accept-ranges": "bytes"
+      }
+    }
+    responseTime: 16
+[1575792897602] [32mINFO [39m (4120 on DESKTOP-5RAT955): [36mserver stopped[39m
+    created: 1575792897338
+    started: 0
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:4120:k3wqela2"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575792897743] [32mINFO [39m (4120 on DESKTOP-5RAT955): [36mserver started[39m
+    created: 1575792897646
+    started: 1575792897742
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:4120:k3wqelim"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575792897749] [32mINFO [39m (4120 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575792897746:DESKTOP-5RAT955:4120:k3wqelim:10000",
+      "method": "get",
+      "url": "http://127.0.0.1:1207/",
+      "headers": {
+        "user-agent": "shot",
+        "host": "127.0.0.1:1207"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": ""
+    }
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 20,
+        "accept-ranges": "bytes"
+      }
+    }
+    responseTime: 3
+[1575792897821] [32mINFO [39m (4120 on DESKTOP-5RAT955): [36mserver stopped[39m
+    created: 1575792897646
+    started: 0
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:4120:k3wqelim"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575795101500] [32mINFO [39m (11712 on DESKTOP-5RAT955): [36mserver started[39m
+    created: 1575795101313
+    started: 1575795101494
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:11712:k3wrptvl"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575795101532] [32mINFO [39m (11712 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575795101512:DESKTOP-5RAT955:11712:k3wrptvl:10000",
+      "method": "get",
+      "url": "http://127.0.0.1:1207/api/tasks",
+      "headers": {
+        "user-agent": "shot",
+        "host": "127.0.0.1:1207"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": ""
+    }
+    res: {
+      "statusCode": 401,
+      "headers": {
+        "www-authenticate": "Basic ",
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 76
+      }
+    }
+    responseTime: 20
+[1575795101552] [32mINFO [39m (11712 on DESKTOP-5RAT955): [36mserver stopped[39m
+    created: 1575795101313
+    started: 0
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:11712:k3wrptvl"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575795101654] [32mINFO [39m (11712 on DESKTOP-5RAT955): [36mserver started[39m
+    created: 1575795101587
+    started: 1575795101653
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:11712:k3wrpu37"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575795103568] [32mINFO [39m (11712 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575795101656:DESKTOP-5RAT955:11712:k3wrpu37:10000",
+      "method": "get",
+      "url": "http://127.0.0.1:1207/api/tasks",
+      "headers": {
+        "authorization": "[Redacted]",
+        "user-agent": "shot",
+        "host": "127.0.0.1:1207"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": ""
+    }
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 2,
+        "accept-ranges": "bytes"
+      }
+    }
+    responseTime: 1912
+[1575795103591] [32mINFO [39m (11712 on DESKTOP-5RAT955): [36mserver stopped[39m
+    created: 1575795101587
+    started: 0
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:11712:k3wrpu37"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575795103704] [32mINFO [39m (11712 on DESKTOP-5RAT955): [36mserver started[39m
+    created: 1575795103631
+    started: 1575795103703
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:11712:k3wrpvnz"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575795103721] [32mINFO [39m (11712 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575795103706:DESKTOP-5RAT955:11712:k3wrpvnz:10000",
+      "method": "get",
+      "url": "http://127.0.0.1:1207/api/tasks",
+      "headers": {
+        "authorization": "[Redacted]",
+        "user-agent": "shot",
+        "host": "127.0.0.1:1207"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": ""
+    }
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 2,
+        "accept-ranges": "bytes"
+      }
+    }
+    responseTime: 15
+[1575795103758] [32mINFO [39m (11712 on DESKTOP-5RAT955): [36mserver stopped[39m
+    created: 1575795103631
+    started: 0
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:11712:k3wrpvnz"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575795103833] [32mINFO [39m (11712 on DESKTOP-5RAT955): [36mserver started[39m
+    created: 1575795103791
+    started: 1575795103832
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:11712:k3wrpvsf"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575795103837] [32mINFO [39m (11712 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575795103835:DESKTOP-5RAT955:11712:k3wrpvsf:10000",
+      "method": "get",
+      "url": "http://127.0.0.1:1207/",
+      "headers": {
+        "user-agent": "shot",
+        "host": "127.0.0.1:1207"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": ""
+    }
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 20,
+        "accept-ranges": "bytes"
+      }
+    }
+    responseTime: 2
+[1575795103854] [32mINFO [39m (11712 on DESKTOP-5RAT955): [36mserver stopped[39m
+    created: 1575795103791
+    started: 0
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:11712:k3wrpvsf"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575795103916] [32mINFO [39m (11712 on DESKTOP-5RAT955): [36mserver started[39m
+    created: 1575795103882
+    started: 1575795103915
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:11712:k3wrpvuy"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575795103919] [32mINFO [39m (11712 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575795103917:DESKTOP-5RAT955:11712:k3wrpvuy:10000",
+      "method": "get",
+      "url": "http://127.0.0.1:1207/",
+      "headers": {
+        "user-agent": "shot",
+        "host": "127.0.0.1:1207"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": ""
+    }
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 20,
+        "accept-ranges": "bytes"
+      }
+    }
+    responseTime: 2
+[1575795103936] [32mINFO [39m (11712 on DESKTOP-5RAT955): [36mserver stopped[39m
+    created: 1575795103882
+    started: 0
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:11712:k3wrpvuy"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575797214194] [32mINFO [39m (7392 on DESKTOP-5RAT955): [36mserver started[39m
+    created: 1575797213952
+    started: 1575797214186
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:7392:k3wsz400"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575797214227] [32mINFO [39m (7392 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575797214206:DESKTOP-5RAT955:7392:k3wsz400:10000",
+      "method": "get",
+      "url": "http://127.0.0.1:1207/api/tasks",
+      "headers": {
+        "user-agent": "shot",
+        "host": "127.0.0.1:1207"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": ""
+    }
+    res: {
+      "statusCode": 401,
+      "headers": {
+        "www-authenticate": "Basic ",
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 76
+      }
+    }
+    responseTime: 21
+[1575797214246] [32mINFO [39m (7392 on DESKTOP-5RAT955): [36mserver stopped[39m
+    created: 1575797213952
+    started: 0
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:7392:k3wsz400"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575797214343] [32mINFO [39m (7392 on DESKTOP-5RAT955): [36mserver started[39m
+    created: 1575797214306
+    started: 1575797214341
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:7392:k3wsz49u"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575797216246] [32mINFO [39m (7392 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575797214350:DESKTOP-5RAT955:7392:k3wsz49u:10000",
+      "method": "get",
+      "url": "http://127.0.0.1:1207/api/tasks",
+      "headers": {
+        "authorization": "[Redacted]",
+        "user-agent": "shot",
+        "host": "127.0.0.1:1207"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": ""
+    }
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 2,
+        "accept-ranges": "bytes"
+      }
+    }
+    responseTime: 1896
+[1575797216265] [32mINFO [39m (7392 on DESKTOP-5RAT955): [36mserver stopped[39m
+    created: 1575797214306
+    started: 0
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:7392:k3wsz49u"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575797216375] [32mINFO [39m (7392 on DESKTOP-5RAT955): [36mserver started[39m
+    created: 1575797216295
+    started: 1575797216374
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:7392:k3wsz5t3"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575797216405] [32mINFO [39m (7392 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575797216376:DESKTOP-5RAT955:7392:k3wsz5t3:10000",
+      "method": "get",
+      "url": "http://127.0.0.1:1207/api/tasks",
+      "headers": {
+        "authorization": "[Redacted]",
+        "user-agent": "shot",
+        "host": "127.0.0.1:1207"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": ""
+    }
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 2,
+        "accept-ranges": "bytes"
+      }
+    }
+    responseTime: 29
+[1575797216420] [32mINFO [39m (7392 on DESKTOP-5RAT955): [36mserver stopped[39m
+    created: 1575797216295
+    started: 0
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:7392:k3wsz5t3"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575797216480] [32mINFO [39m (7392 on DESKTOP-5RAT955): [36mserver started[39m
+    created: 1575797216451
+    started: 1575797216478
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:7392:k3wsz5xf"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575797216496] [32mINFO [39m (7392 on DESKTOP-5RAT955): [36mserver stopped[39m
+    created: 1575797216451
+    started: 0
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:7392:k3wsz5xf"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575797216576] [32mINFO [39m (7392 on DESKTOP-5RAT955): [36mserver started[39m
+    created: 1575797216525
+    started: 1575797216551
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:7392:k3wsz5zh"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575797216579] [32mINFO [39m (7392 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575797216577:DESKTOP-5RAT955:7392:k3wsz5zh:10000",
+      "method": "get",
+      "url": "http://127.0.0.1:1207/",
+      "headers": {
+        "user-agent": "shot",
+        "host": "127.0.0.1:1207"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": ""
+    }
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 20,
+        "accept-ranges": "bytes"
+      }
+    }
+    responseTime: 2
+[1575797216748] [32mINFO [39m (7392 on DESKTOP-5RAT955): [36mserver stopped[39m
+    created: 1575797216525
+    started: 0
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:7392:k3wsz5zh"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575797216799] [32mINFO [39m (7392 on DESKTOP-5RAT955): [36mserver started[39m
+    created: 1575797216776
+    started: 1575797216797
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:7392:k3wsz66g"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575797216802] [32mINFO [39m (7392 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575797216800:DESKTOP-5RAT955:7392:k3wsz66g:10000",
+      "method": "get",
+      "url": "http://127.0.0.1:1207/",
+      "headers": {
+        "user-agent": "shot",
+        "host": "127.0.0.1:1207"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": ""
+    }
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 20,
+        "accept-ranges": "bytes"
+      }
+    }
+    responseTime: 2
+[1575797216827] [32mINFO [39m (7392 on DESKTOP-5RAT955): [36mserver stopped[39m
+    created: 1575797216776
+    started: 0
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:7392:k3wsz66g"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575797252929] [32mINFO [39m (2700 on DESKTOP-5RAT955): [36mserver started[39m
+    created: 1575797252764
+    started: 1575797252923
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:2700:k3wszxy4"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575797252956] [32mINFO [39m (2700 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575797252940:DESKTOP-5RAT955:2700:k3wszxy4:10000",
+      "method": "get",
+      "url": "http://127.0.0.1:1207/api/tasks",
+      "headers": {
+        "user-agent": "shot",
+        "host": "127.0.0.1:1207"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": ""
+    }
+    res: {
+      "statusCode": 401,
+      "headers": {
+        "www-authenticate": "Basic ",
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 76
+      }
+    }
+    responseTime: 16
+[1575797252982] [32mINFO [39m (2700 on DESKTOP-5RAT955): [36mserver stopped[39m
+    created: 1575797252764
+    started: 0
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:2700:k3wszxy4"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575797253096] [32mINFO [39m (2700 on DESKTOP-5RAT955): [36mserver started[39m
+    created: 1575797253042
+    started: 1575797253095
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:2700:k3wszy5u"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575797255015] [32mINFO [39m (2700 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575797253099:DESKTOP-5RAT955:2700:k3wszy5u:10000",
+      "method": "get",
+      "url": "http://127.0.0.1:1207/api/tasks",
+      "headers": {
+        "authorization": "[Redacted]",
+        "user-agent": "shot",
+        "host": "127.0.0.1:1207"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": ""
+    }
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 2,
+        "accept-ranges": "bytes"
+      }
+    }
+    responseTime: 1916
+[1575797255031] [32mINFO [39m (2700 on DESKTOP-5RAT955): [36mserver stopped[39m
+    created: 1575797253042
+    started: 0
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:2700:k3wszy5u"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575797255114] [32mINFO [39m (2700 on DESKTOP-5RAT955): [36mserver started[39m
+    created: 1575797255065
+    started: 1575797255112
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:2700:k3wszzq1"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575797255127] [32mINFO [39m (2700 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575797255116:DESKTOP-5RAT955:2700:k3wszzq1:10000",
+      "method": "get",
+      "url": "http://127.0.0.1:1207/api/tasks",
+      "headers": {
+        "authorization": "[Redacted]",
+        "user-agent": "shot",
+        "host": "127.0.0.1:1207"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": ""
+    }
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 2,
+        "accept-ranges": "bytes"
+      }
+    }
+    responseTime: 11
+[1575797255161] [32mINFO [39m (2700 on DESKTOP-5RAT955): [36mserver stopped[39m
+    created: 1575797255065
+    started: 0
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:2700:k3wszzq1"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575797255253] [32mINFO [39m (2700 on DESKTOP-5RAT955): [36mserver started[39m
+    created: 1575797255192
+    started: 1575797255251
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:2700:k3wszztk"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575797255488] [32mINFO [39m (2700 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575797255255:DESKTOP-5RAT955:2700:k3wszztk:10000",
+      "method": "post",
+      "url": "http://127.0.0.1:1207/api/tasks",
+      "headers": {
+        "authorization": "[Redacted]",
+        "user-agent": "shot",
+        "host": "127.0.0.1:1207",
+        "content-type": "application/json",
+        "content-length": "125"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": ""
+    }
+    res: {
+      "statusCode": 201,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 161
+      }
+    }
+    responseTime: 233
+[1575797255507] [32mINFO [39m (2700 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575797255489:DESKTOP-5RAT955:2700:k3wszztk:10001",
+      "method": "get",
+      "url": "http://127.0.0.1:1207/api/tasks",
+      "headers": {
+        "authorization": "[Redacted]",
+        "user-agent": "shot",
+        "host": "127.0.0.1:1207"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": ""
+    }
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 163,
+        "accept-ranges": "bytes"
+      }
+    }
+    responseTime: 18
+[1575797255524] [32mINFO [39m (2700 on DESKTOP-5RAT955): [36mserver stopped[39m
+    created: 1575797255192
+    started: 0
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:2700:k3wszztk"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575797255616] [32mINFO [39m (2700 on DESKTOP-5RAT955): [36mserver started[39m
+    created: 1575797255589
+    started: 1575797255614
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:2700:k3wt004l"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575797255619] [32mINFO [39m (2700 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575797255617:DESKTOP-5RAT955:2700:k3wt004l:10000",
+      "method": "get",
+      "url": "http://127.0.0.1:1207/",
+      "headers": {
+        "user-agent": "shot",
+        "host": "127.0.0.1:1207"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": ""
+    }
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 20,
+        "accept-ranges": "bytes"
+      }
+    }
+    responseTime: 2
+[1575797255636] [32mINFO [39m (2700 on DESKTOP-5RAT955): [36mserver stopped[39m
+    created: 1575797255589
+    started: 0
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:2700:k3wt004l"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575797255743] [32mINFO [39m (2700 on DESKTOP-5RAT955): [36mserver started[39m
+    created: 1575797255674
+    started: 1575797255741
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:2700:k3wt006y"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575797255746] [32mINFO [39m (2700 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575797255744:DESKTOP-5RAT955:2700:k3wt006y:10000",
+      "method": "get",
+      "url": "http://127.0.0.1:1207/",
+      "headers": {
+        "user-agent": "shot",
+        "host": "127.0.0.1:1207"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": ""
+    }
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 20,
+        "accept-ranges": "bytes"
+      }
+    }
+    responseTime: 2
+[1575797255897] [32mINFO [39m (2700 on DESKTOP-5RAT955): [36mserver stopped[39m
+    created: 1575797255674
+    started: 0
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:2700:k3wt006y"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575797790283] [32mINFO [39m (12860 on DESKTOP-5RAT955): [36mserver started[39m
+    created: 1575797790096
+    started: 1575797790277
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:12860:k3wtbgk0"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575797790311] [32mINFO [39m (12860 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575797790295:DESKTOP-5RAT955:12860:k3wtbgk0:10000",
+      "method": "get",
+      "url": "http://127.0.0.1:1207/api/tasks",
+      "headers": {
+        "user-agent": "shot",
+        "host": "127.0.0.1:1207"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": ""
+    }
+    res: {
+      "statusCode": 401,
+      "headers": {
+        "www-authenticate": "Basic ",
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 76
+      }
+    }
+    responseTime: 16
+[1575797790334] [32mINFO [39m (12860 on DESKTOP-5RAT955): [36mserver stopped[39m
+    created: 1575797790096
+    started: 0
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:12860:k3wtbgk0"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575797790412] [32mINFO [39m (12860 on DESKTOP-5RAT955): [36mserver started[39m
+    created: 1575797790367
+    started: 1575797790410
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:12860:k3wtbgrj"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575797792339] [32mINFO [39m (12860 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575797790414:DESKTOP-5RAT955:12860:k3wtbgrj:10000",
+      "method": "get",
+      "url": "http://127.0.0.1:1207/api/tasks",
+      "headers": {
+        "authorization": "[Redacted]",
+        "user-agent": "shot",
+        "host": "127.0.0.1:1207"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": ""
+    }
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 163,
+        "accept-ranges": "bytes"
+      }
+    }
+    responseTime: 1925
+[1575797792352] [32mINFO [39m (12860 on DESKTOP-5RAT955): [36mserver stopped[39m
+    created: 1575797790367
+    started: 0
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:12860:k3wtbgrj"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575797792434] [32mINFO [39m (12860 on DESKTOP-5RAT955): [36mserver started[39m
+    created: 1575797792382
+    started: 1575797792433
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:12860:k3wtbibi"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575797792456] [32mINFO [39m (12860 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575797792439:DESKTOP-5RAT955:12860:k3wtbibi:10000",
+      "method": "get",
+      "url": "http://127.0.0.1:1207/api/tasks",
+      "headers": {
+        "authorization": "[Redacted]",
+        "user-agent": "shot",
+        "host": "127.0.0.1:1207"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": ""
+    }
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 163,
+        "accept-ranges": "bytes"
+      }
+    }
+    responseTime: 17
+[1575797792490] [32mINFO [39m (12860 on DESKTOP-5RAT955): [36mserver stopped[39m
+    created: 1575797792382
+    started: 0
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:12860:k3wtbibi"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575797792564] [32mINFO [39m (12860 on DESKTOP-5RAT955): [36mserver started[39m
+    created: 1575797792539
+    started: 1575797792563
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:12860:k3wtbifv"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575797792622] [32mINFO [39m (12860 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575797792566:DESKTOP-5RAT955:12860:k3wtbifv:10000",
+      "method": "post",
+      "url": "http://127.0.0.1:1207/api/tasks",
+      "headers": {
+        "authorization": "[Redacted]",
+        "user-agent": "shot",
+        "host": "127.0.0.1:1207",
+        "content-type": "application/json",
+        "content-length": "125"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": ""
+    }
+    res: {
+      "statusCode": 409,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 72
+      }
+    }
+    responseTime: 56
+[1575797792711] [32mINFO [39m (12860 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575797792630:DESKTOP-5RAT955:12860:k3wtbifv:10001",
+      "method": "get",
+      "url": "http://127.0.0.1:1207/api/tasks",
+      "headers": {
+        "authorization": "[Redacted]",
+        "user-agent": "shot",
+        "host": "127.0.0.1:1207"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": ""
+    }
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 163,
+        "accept-ranges": "bytes"
+      }
+    }
+    responseTime: 81
+[1575797792773] [32mINFO [39m (12860 on DESKTOP-5RAT955): [36mserver stopped[39m
+    created: 1575797792539
+    started: 0
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:12860:k3wtbifv"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575797792850] [32mINFO [39m (12860 on DESKTOP-5RAT955): [36mserver started[39m
+    created: 1575797792802
+    started: 1575797792829
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:12860:k3wtbin6"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575797792855] [32mINFO [39m (12860 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575797792852:DESKTOP-5RAT955:12860:k3wtbin6:10000",
+      "method": "get",
+      "url": "http://127.0.0.1:1207/",
+      "headers": {
+        "user-agent": "shot",
+        "host": "127.0.0.1:1207"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": ""
+    }
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 20,
+        "accept-ranges": "bytes"
+      }
+    }
+    responseTime: 3
+[1575797792948] [32mINFO [39m (12860 on DESKTOP-5RAT955): [36mserver stopped[39m
+    created: 1575797792802
+    started: 0
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:12860:k3wtbin6"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575797793036] [32mINFO [39m (12860 on DESKTOP-5RAT955): [36mserver started[39m
+    created: 1575797792978
+    started: 1575797793035
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:12860:k3wtbis2"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575797793040] [32mINFO [39m (12860 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575797793037:DESKTOP-5RAT955:12860:k3wtbis2:10000",
+      "method": "get",
+      "url": "http://127.0.0.1:1207/",
+      "headers": {
+        "user-agent": "shot",
+        "host": "127.0.0.1:1207"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": ""
+    }
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 20,
+        "accept-ranges": "bytes"
+      }
+    }
+    responseTime: 3
+[1575797793126] [32mINFO [39m (12860 on DESKTOP-5RAT955): [36mserver stopped[39m
+    created: 1575797792978
+    started: 0
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:12860:k3wtbis2"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575797869919] [32mINFO [39m (6876 on DESKTOP-5RAT955): [36mserver started[39m
+    created: 1575797869747
+    started: 1575797869913
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:6876:k3wtd60j"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575797869947] [32mINFO [39m (6876 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575797869930:DESKTOP-5RAT955:6876:k3wtd60j:10000",
+      "method": "get",
+      "url": "http://127.0.0.1:1207/api/tasks",
+      "headers": {
+        "user-agent": "shot",
+        "host": "127.0.0.1:1207"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": ""
+    }
+    res: {
+      "statusCode": 401,
+      "headers": {
+        "www-authenticate": "Basic ",
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 76
+      }
+    }
+    responseTime: 17
+[1575797869966] [32mINFO [39m (6876 on DESKTOP-5RAT955): [36mserver stopped[39m
+    created: 1575797869747
+    started: 0
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:6876:k3wtd60j"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575797870059] [32mINFO [39m (6876 on DESKTOP-5RAT955): [36mserver started[39m
+    created: 1575797869998
+    started: 1575797870044
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:6876:k3wtd67i"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575797871966] [32mINFO [39m (6876 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575797870063:DESKTOP-5RAT955:6876:k3wtd67i:10000",
+      "method": "get",
+      "url": "http://127.0.0.1:1207/api/tasks",
+      "headers": {
+        "authorization": "[Redacted]",
+        "user-agent": "shot",
+        "host": "127.0.0.1:1207"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": ""
+    }
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 163,
+        "accept-ranges": "bytes"
+      }
+    }
+    responseTime: 1903
+[1575797871978] [32mINFO [39m (6876 on DESKTOP-5RAT955): [36mserver stopped[39m
+    created: 1575797869998
+    started: 0
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:6876:k3wtd67i"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575797872048] [32mINFO [39m (6876 on DESKTOP-5RAT955): [36mserver started[39m
+    created: 1575797872009
+    started: 1575797872047
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:6876:k3wtd7rd"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575797872062] [32mINFO [39m (6876 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575797872050:DESKTOP-5RAT955:6876:k3wtd7rd:10000",
+      "method": "get",
+      "url": "http://127.0.0.1:1207/api/tasks",
+      "headers": {
+        "authorization": "[Redacted]",
+        "user-agent": "shot",
+        "host": "127.0.0.1:1207"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": ""
+    }
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 163,
+        "accept-ranges": "bytes"
+      }
+    }
+    responseTime: 12
+[1575797872085] [32mINFO [39m (6876 on DESKTOP-5RAT955): [36mserver stopped[39m
+    created: 1575797872009
+    started: 0
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:6876:k3wtd7rd"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575797872178] [32mINFO [39m (6876 on DESKTOP-5RAT955): [36mserver started[39m
+    created: 1575797872153
+    started: 1575797872176
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:6876:k3wtd7vd"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575797872279] [32mINFO [39m (6876 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575797872180:DESKTOP-5RAT955:6876:k3wtd7vd:10000",
+      "method": "post",
+      "url": "http://127.0.0.1:1207/api/tasks",
+      "headers": {
+        "authorization": "[Redacted]",
+        "user-agent": "shot",
+        "host": "127.0.0.1:1207",
+        "content-type": "application/json",
+        "content-length": "125"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": ""
+    }
+    res: {
+      "statusCode": 409,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 72
+      }
+    }
+    responseTime: 99
+[1575797872312] [32mINFO [39m (6876 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575797872281:DESKTOP-5RAT955:6876:k3wtd7vd:10001",
+      "method": "get",
+      "url": "http://127.0.0.1:1207/api/tasks",
+      "headers": {
+        "authorization": "[Redacted]",
+        "user-agent": "shot",
+        "host": "127.0.0.1:1207"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": ""
+    }
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 163,
+        "accept-ranges": "bytes"
+      }
+    }
+    responseTime: 31
+[1575797872353] [32mINFO [39m (6876 on DESKTOP-5RAT955): [36mserver stopped[39m
+    created: 1575797872153
+    started: 0
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:6876:k3wtd7vd"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575797872431] [32mINFO [39m (6876 on DESKTOP-5RAT955): [36mserver started[39m
+    created: 1575797872391
+    started: 1575797872429
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:6876:k3wtd81z"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575797872435] [32mINFO [39m (6876 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575797872432:DESKTOP-5RAT955:6876:k3wtd81z:10000",
+      "method": "get",
+      "url": "http://127.0.0.1:1207/",
+      "headers": {
+        "user-agent": "shot",
+        "host": "127.0.0.1:1207"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": ""
+    }
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 20,
+        "accept-ranges": "bytes"
+      }
+    }
+    responseTime: 2
+[1575797872489] [32mINFO [39m (6876 on DESKTOP-5RAT955): [36mserver stopped[39m
+    created: 1575797872391
+    started: 0
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:6876:k3wtd81z"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575797872600] [32mINFO [39m (6876 on DESKTOP-5RAT955): [36mserver started[39m
+    created: 1575797872541
+    started: 1575797872598
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:6876:k3wtd865"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575797872604] [32mINFO [39m (6876 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575797872602:DESKTOP-5RAT955:6876:k3wtd865:10000",
+      "method": "get",
+      "url": "http://127.0.0.1:1207/",
+      "headers": {
+        "user-agent": "shot",
+        "host": "127.0.0.1:1207"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": ""
+    }
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 20,
+        "accept-ranges": "bytes"
+      }
+    }
+    responseTime: 2
+[1575797872613] [32mINFO [39m (6876 on DESKTOP-5RAT955): [36mserver stopped[39m
+    created: 1575797872541
+    started: 0
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:6876:k3wtd865"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575797900334] [32mINFO [39m (12196 on DESKTOP-5RAT955): [36mserver started[39m
+    created: 1575797900159
+    started: 1575797900328
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:12196:k3wtdthb"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575797900361] [32mINFO [39m (12196 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575797900345:DESKTOP-5RAT955:12196:k3wtdthb:10000",
+      "method": "get",
+      "url": "http://127.0.0.1:1207/api/tasks",
+      "headers": {
+        "user-agent": "shot",
+        "host": "127.0.0.1:1207"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": ""
+    }
+    res: {
+      "statusCode": 401,
+      "headers": {
+        "www-authenticate": "Basic ",
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 76
+      }
+    }
+    responseTime: 16
+[1575797900369] [32mINFO [39m (12196 on DESKTOP-5RAT955): [36mserver stopped[39m
+    created: 1575797900159
+    started: 0
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:12196:k3wtdthb"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575797900439] [32mINFO [39m (12196 on DESKTOP-5RAT955): [36mserver started[39m
+    created: 1575797900398
+    started: 1575797900438
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:12196:k3wtdtny"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575797902386] [32mINFO [39m (12196 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575797900442:DESKTOP-5RAT955:12196:k3wtdtny:10000",
+      "method": "get",
+      "url": "http://127.0.0.1:1207/api/tasks",
+      "headers": {
+        "authorization": "[Redacted]",
+        "user-agent": "shot",
+        "host": "127.0.0.1:1207"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": ""
+    }
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 163,
+        "accept-ranges": "bytes"
+      }
+    }
+    responseTime: 1944
+[1575797902388] [32mINFO [39m (12196 on DESKTOP-5RAT955): [36mserver stopped[39m
+    created: 1575797900398
+    started: 0
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:12196:k3wtdtny"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575797902451] [32mINFO [39m (12196 on DESKTOP-5RAT955): [36mserver started[39m
+    created: 1575797902417
+    started: 1575797902450
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:12196:k3wtdv81"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575797902482] [32mINFO [39m (12196 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575797902453:DESKTOP-5RAT955:12196:k3wtdv81:10000",
+      "method": "get",
+      "url": "http://127.0.0.1:1207/api/tasks",
+      "headers": {
+        "authorization": "[Redacted]",
+        "user-agent": "shot",
+        "host": "127.0.0.1:1207"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": ""
+    }
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 163,
+        "accept-ranges": "bytes"
+      }
+    }
+    responseTime: 29
+[1575797902487] [32mINFO [39m (12196 on DESKTOP-5RAT955): [36mserver stopped[39m
+    created: 1575797902417
+    started: 0
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:12196:k3wtdv81"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575797902563] [32mINFO [39m (12196 on DESKTOP-5RAT955): [36mserver started[39m
+    created: 1575797902519
+    started: 1575797902562
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:12196:k3wtdvav"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575797902590] [32mINFO [39m (12196 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575797902565:DESKTOP-5RAT955:12196:k3wtdvav:10000",
+      "method": "post",
+      "url": "http://127.0.0.1:1207/api/tasks",
+      "headers": {
+        "authorization": "[Redacted]",
+        "user-agent": "shot",
+        "host": "127.0.0.1:1207",
+        "content-type": "application/json",
+        "content-length": "125"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": ""
+    }
+    res: {
+      "statusCode": 409,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 72
+      }
+    }
+    responseTime: 25
+[1575797902600] [32mINFO [39m (12196 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575797902591:DESKTOP-5RAT955:12196:k3wtdvav:10001",
+      "method": "get",
+      "url": "http://127.0.0.1:1207/api/tasks",
+      "headers": {
+        "authorization": "[Redacted]",
+        "user-agent": "shot",
+        "host": "127.0.0.1:1207"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": ""
+    }
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 163,
+        "accept-ranges": "bytes"
+      }
+    }
+    responseTime: 9
+[1575797902602] [32mINFO [39m (12196 on DESKTOP-5RAT955): [36mserver stopped[39m
+    created: 1575797902519
+    started: 0
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:12196:k3wtdvav"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575797902660] [32mINFO [39m (12196 on DESKTOP-5RAT955): [36mserver started[39m
+    created: 1575797902633
+    started: 1575797902658
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:12196:k3wtdve1"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575797902663] [32mINFO [39m (12196 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575797902661:DESKTOP-5RAT955:12196:k3wtdve1:10000",
+      "method": "get",
+      "url": "http://127.0.0.1:1207/",
+      "headers": {
+        "user-agent": "shot",
+        "host": "127.0.0.1:1207"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": ""
+    }
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 20,
+        "accept-ranges": "bytes"
+      }
+    }
+    responseTime: 2
+[1575797902666] [32mINFO [39m (12196 on DESKTOP-5RAT955): [36mserver stopped[39m
+    created: 1575797902633
+    started: 0
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:12196:k3wtdve1"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575797902772] [32mINFO [39m (12196 on DESKTOP-5RAT955): [36mserver started[39m
+    created: 1575797902699
+    started: 1575797902771
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:12196:k3wtdvfv"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575797902776] [32mINFO [39m (12196 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575797902773:DESKTOP-5RAT955:12196:k3wtdvfv:10000",
+      "method": "get",
+      "url": "http://127.0.0.1:1207/",
+      "headers": {
+        "user-agent": "shot",
+        "host": "127.0.0.1:1207"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": ""
+    }
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 20,
+        "accept-ranges": "bytes"
+      }
+    }
+    responseTime: 2
+[1575797902818] [32mINFO [39m (12196 on DESKTOP-5RAT955): [36mserver stopped[39m
+    created: 1575797902699
+    started: 0
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:12196:k3wtdvfv"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575798039383] [32mINFO [39m (7708 on DESKTOP-5RAT955): [36mserver started[39m
+    created: 1575798039210
+    started: 1575798039377
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:7708:k3wtgsru"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575798039411] [32mINFO [39m (7708 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575798039394:DESKTOP-5RAT955:7708:k3wtgsru:10000",
+      "method": "get",
+      "url": "http://127.0.0.1:1207/api/tasks",
+      "headers": {
+        "user-agent": "shot",
+        "host": "127.0.0.1:1207"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": ""
+    }
+    res: {
+      "statusCode": 401,
+      "headers": {
+        "www-authenticate": "Basic ",
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 76
+      }
+    }
+    responseTime: 16
+[1575798039418] [32mINFO [39m (7708 on DESKTOP-5RAT955): [36mserver stopped[39m
+    created: 1575798039210
+    started: 0
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:7708:k3wtgsru"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575798039503] [32mINFO [39m (7708 on DESKTOP-5RAT955): [36mserver started[39m
+    created: 1575798039449
+    started: 1575798039501
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:7708:k3wtgsyh"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575798041433] [32mINFO [39m (7708 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575798039505:DESKTOP-5RAT955:7708:k3wtgsyh:10000",
+      "method": "get",
+      "url": "http://127.0.0.1:1207/api/tasks",
+      "headers": {
+        "authorization": "[Redacted]",
+        "user-agent": "shot",
+        "host": "127.0.0.1:1207"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": ""
+    }
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 163,
+        "accept-ranges": "bytes"
+      }
+    }
+    responseTime: 1928
+[1575798041436] [32mINFO [39m (7708 on DESKTOP-5RAT955): [36mserver stopped[39m
+    created: 1575798039449
+    started: 0
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:7708:k3wtgsyh"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575798041508] [32mINFO [39m (7708 on DESKTOP-5RAT955): [36mserver started[39m
+    created: 1575798041460
+    started: 1575798041506
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:7708:k3wtguic"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575798041550] [32mINFO [39m (7708 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575798041509:DESKTOP-5RAT955:7708:k3wtguic:10000",
+      "method": "get",
+      "url": "http://127.0.0.1:1207/api/tasks",
+      "headers": {
+        "authorization": "[Redacted]",
+        "user-agent": "shot",
+        "host": "127.0.0.1:1207"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": ""
+    }
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 163,
+        "accept-ranges": "bytes"
+      }
+    }
+    responseTime: 40
+[1575798041552] [32mINFO [39m (7708 on DESKTOP-5RAT955): [36mserver stopped[39m
+    created: 1575798041460
+    started: 0
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:7708:k3wtguic"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575798041608] [32mINFO [39m (7708 on DESKTOP-5RAT955): [36mserver started[39m
+    created: 1575798041581
+    started: 1575798041607
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:7708:k3wtgulp"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575798041709] [32mINFO [39m (7708 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575798041610:DESKTOP-5RAT955:7708:k3wtgulp:10000",
+      "method": "post",
+      "url": "http://127.0.0.1:1207/api/tasks",
+      "headers": {
+        "authorization": "[Redacted]",
+        "user-agent": "shot",
+        "host": "127.0.0.1:1207",
+        "content-type": "application/json",
+        "content-length": "129"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": ""
+    }
+    res: {
+      "statusCode": 201,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 165
+      }
+    }
+    responseTime: 99
+[1575798041720] [32mINFO [39m (7708 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575798041711:DESKTOP-5RAT955:7708:k3wtgulp:10001",
+      "method": "get",
+      "url": "http://127.0.0.1:1207/api/tasks",
+      "headers": {
+        "authorization": "[Redacted]",
+        "user-agent": "shot",
+        "host": "127.0.0.1:1207"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": ""
+    }
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 329,
+        "accept-ranges": "bytes"
+      }
+    }
+    responseTime: 9
+[1575798041721] [32mINFO [39m (7708 on DESKTOP-5RAT955): [36mserver stopped[39m
+    created: 1575798041581
+    started: 0
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:7708:k3wtgulp"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575798041796] [32mINFO [39m (7708 on DESKTOP-5RAT955): [36mserver started[39m
+    created: 1575798041764
+    started: 1575798041794
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:7708:k3wtguqs"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575798041799] [32mINFO [39m (7708 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575798041797:DESKTOP-5RAT955:7708:k3wtguqs:10000",
+      "method": "get",
+      "url": "http://127.0.0.1:1207/",
+      "headers": {
+        "user-agent": "shot",
+        "host": "127.0.0.1:1207"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": ""
+    }
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 20,
+        "accept-ranges": "bytes"
+      }
+    }
+    responseTime: 2
+[1575798041855] [32mINFO [39m (7708 on DESKTOP-5RAT955): [36mserver stopped[39m
+    created: 1575798041764
+    started: 0
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:7708:k3wtguqs"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575798041942] [32mINFO [39m (7708 on DESKTOP-5RAT955): [36mserver started[39m
+    created: 1575798041896
+    started: 1575798041940
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:7708:k3wtguug"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575798041945] [32mINFO [39m (7708 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575798041943:DESKTOP-5RAT955:7708:k3wtguug:10000",
+      "method": "get",
+      "url": "http://127.0.0.1:1207/",
+      "headers": {
+        "user-agent": "shot",
+        "host": "127.0.0.1:1207"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": ""
+    }
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 20,
+        "accept-ranges": "bytes"
+      }
+    }
+    responseTime: 2
+[1575798041951] [32mINFO [39m (7708 on DESKTOP-5RAT955): [36mserver stopped[39m
+    created: 1575798041896
+    started: 0
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:7708:k3wtguug"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575799629178] [32mINFO [39m (1996 on DESKTOP-5RAT955): [36mserver started[39m
+    created: 1575799628966
+    started: 1575799629170
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:1996:k3wuevfq"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575799629212] [32mINFO [39m (1996 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575799629190:DESKTOP-5RAT955:1996:k3wuevfq:10000",
+      "method": "get",
+      "url": "http://127.0.0.1:1207/api/tasks",
+      "headers": {
+        "user-agent": "shot",
+        "host": "127.0.0.1:1207"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": ""
+    }
+    res: {
+      "statusCode": 401,
+      "headers": {
+        "www-authenticate": "Basic ",
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 76
+      }
+    }
+    responseTime: 21
+[1575799719577] [32mINFO [39m (12640 on DESKTOP-5RAT955): [36mserver started[39m
+    created: 1575799719394
+    started: 1575799719570
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:12640:k3wugt7m"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575799719606] [32mINFO [39m (12640 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575799719589:DESKTOP-5RAT955:12640:k3wugt7m:10000",
+      "method": "get",
+      "url": "http://127.0.0.1:1207/api/tasks",
+      "headers": {
+        "user-agent": "shot",
+        "host": "127.0.0.1:1207"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": ""
+    }
+    res: {
+      "statusCode": 401,
+      "headers": {
+        "www-authenticate": "Basic ",
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 76
+      }
+    }
+    responseTime: 17
+[1575799751095] [32mINFO [39m (9568 on DESKTOP-5RAT955): [36mserver started[39m
+    created: 1575799750908
+    started: 1575799751089
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:9568:k3wuhhj0"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575799751122] [32mINFO [39m (9568 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575799751106:DESKTOP-5RAT955:9568:k3wuhhj0:10000",
+      "method": "get",
+      "url": "http://127.0.0.1:1207/api/tasks",
+      "headers": {
+        "user-agent": "shot",
+        "host": "127.0.0.1:1207"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": ""
+    }
+    res: {
+      "statusCode": 401,
+      "headers": {
+        "www-authenticate": "Basic ",
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 76
+      }
+    }
+    responseTime: 16
+[1575800007762] [32mINFO [39m (11324 on DESKTOP-5RAT955): [36mserver started[39m
+    created: 1575800007594
+    started: 1575800007757
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:11324:k3wumzl6"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575800007789] [32mINFO [39m (11324 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575800007773:DESKTOP-5RAT955:11324:k3wumzl6:10000",
+      "method": "get",
+      "url": "http://127.0.0.1:1207/api/tasks",
+      "headers": {
+        "user-agent": "shot",
+        "host": "127.0.0.1:1207"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": ""
+    }
+    res: {
+      "statusCode": 401,
+      "headers": {
+        "www-authenticate": "Basic ",
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 76
+      }
+    }
+    responseTime: 16
+[1575800171967] [32mINFO [39m (11888 on DESKTOP-5RAT955): [36mserver started[39m
+    created: 1575800171772
+    started: 1575800171961
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:11888:k3wuqi9o"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575800171999] [32mINFO [39m (11888 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575800171978:DESKTOP-5RAT955:11888:k3wuqi9o:10000",
+      "method": "get",
+      "url": "http://127.0.0.1:1207/api/tasks",
+      "headers": {
+        "user-agent": "shot",
+        "host": "127.0.0.1:1207"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": ""
+    }
+    res: {
+      "statusCode": 401,
+      "headers": {
+        "www-authenticate": "Basic ",
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 76
+      }
+    }
+    responseTime: 21
+[1575800172019] [32mINFO [39m (11888 on DESKTOP-5RAT955): [36mserver stopped[39m
+    created: 1575800171772
+    started: 0
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:11888:k3wuqi9o"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575800172085] [32mINFO [39m (11888 on DESKTOP-5RAT955): [36mserver started[39m
+    created: 1575800172056
+    started: 1575800172084
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:11888:k3wuqihk"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575800174025] [32mINFO [39m (11888 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575800172087:DESKTOP-5RAT955:11888:k3wuqihk:10000",
+      "method": "get",
+      "url": "http://127.0.0.1:1207/api/tasks",
+      "headers": {
+        "authorization": "[Redacted]",
+        "user-agent": "shot",
+        "host": "127.0.0.1:1207"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": ""
+    }
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 2,
+        "accept-ranges": "bytes"
+      }
+    }
+    responseTime: 1938
+[1575800174040] [32mINFO [39m (11888 on DESKTOP-5RAT955): [36mserver stopped[39m
+    created: 1575800172056
+    started: 0
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:11888:k3wuqihk"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575800174124] [32mINFO [39m (11888 on DESKTOP-5RAT955): [36mserver started[39m
+    created: 1575800174070
+    started: 1575800174123
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:11888:k3wuqk1i"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575800174151] [32mINFO [39m (11888 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575800174126:DESKTOP-5RAT955:11888:k3wuqk1i:10000",
+      "method": "get",
+      "url": "http://127.0.0.1:1207/api/tasks",
+      "headers": {
+        "authorization": "[Redacted]",
+        "user-agent": "shot",
+        "host": "127.0.0.1:1207"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": ""
+    }
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 2,
+        "accept-ranges": "bytes"
+      }
+    }
+    responseTime: 25
+[1575800174167] [32mINFO [39m (11888 on DESKTOP-5RAT955): [36mserver stopped[39m
+    created: 1575800174070
+    started: 0
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:11888:k3wuqk1i"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575800174220] [32mINFO [39m (11888 on DESKTOP-5RAT955): [36mserver started[39m
+    created: 1575800174196
+    started: 1575800174218
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:11888:k3wuqk50"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575800174443] [32mINFO [39m (11888 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575800174222:DESKTOP-5RAT955:11888:k3wuqk50:10000",
+      "method": "post",
+      "url": "http://127.0.0.1:1207/api/tasks",
+      "headers": {
+        "authorization": "[Redacted]",
+        "user-agent": "shot",
+        "host": "127.0.0.1:1207",
+        "content-type": "application/json",
+        "content-length": "129"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": ""
+    }
+    res: {
+      "statusCode": 201,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 165
+      }
+    }
+    responseTime: 221
+[1575800174456] [32mINFO [39m (11888 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575800174444:DESKTOP-5RAT955:11888:k3wuqk50:10001",
+      "method": "get",
+      "url": "http://127.0.0.1:1207/api/tasks",
+      "headers": {
+        "authorization": "[Redacted]",
+        "user-agent": "shot",
+        "host": "127.0.0.1:1207"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": ""
+    }
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 167,
+        "accept-ranges": "bytes"
+      }
+    }
+    responseTime: 12
+[1575800174499] [32mINFO [39m (11888 on DESKTOP-5RAT955): [36mserver stopped[39m
+    created: 1575800174196
+    started: 0
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:11888:k3wuqk50"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575800174584] [32mINFO [39m (11888 on DESKTOP-5RAT955): [36mserver started[39m
+    created: 1575800174529
+    started: 1575800174583
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:11888:k3wuqke9"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575800174588] [32mINFO [39m (11888 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575800174586:DESKTOP-5RAT955:11888:k3wuqke9:10000",
+      "method": "get",
+      "url": "http://127.0.0.1:1207/",
+      "headers": {
+        "user-agent": "shot",
+        "host": "127.0.0.1:1207"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": ""
+    }
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 20,
+        "accept-ranges": "bytes"
+      }
+    }
+    responseTime: 2
+[1575800174679] [32mINFO [39m (11888 on DESKTOP-5RAT955): [36mserver stopped[39m
+    created: 1575800174529
+    started: 0
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:11888:k3wuqke9"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575800174784] [32mINFO [39m (11888 on DESKTOP-5RAT955): [36mserver started[39m
+    created: 1575800174723
+    started: 1575800174783
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:11888:k3wuqkjn"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575800174788] [32mINFO [39m (11888 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575800174785:DESKTOP-5RAT955:11888:k3wuqkjn:10000",
+      "method": "get",
+      "url": "http://127.0.0.1:1207/",
+      "headers": {
+        "user-agent": "shot",
+        "host": "127.0.0.1:1207"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": ""
+    }
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 20,
+        "accept-ranges": "bytes"
+      }
+    }
+    responseTime: 3
+[1575800174793] [32mINFO [39m (11888 on DESKTOP-5RAT955): [36mserver stopped[39m
+    created: 1575800174723
+    started: 0
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:11888:k3wuqkjn"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
