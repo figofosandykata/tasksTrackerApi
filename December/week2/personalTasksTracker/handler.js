@@ -142,6 +142,7 @@ const tasksPutHandler=async (request,h)=>{
     if(!updatedTask){
         return h.response(notFoundResponse).code(404)
     }
+    await request.server.methods.getDetail.cache.drop(id)
     return h.response(updatedTask).code(202)
 }
 
@@ -151,6 +152,7 @@ const tasksDeleteHandler=async (request,h)=>{
     if(!deletedTask){
         return h.response(notFoundResponse).code(404)
     }
+    await request.server.methods.getDetail.cache.drop(id)
     return h.response({
         statusCode:202,
         error:``,

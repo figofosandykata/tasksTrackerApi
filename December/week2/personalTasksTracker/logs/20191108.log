@@ -72,3 +72,180 @@
       }
     }
     responseTime: 6
+[1575782371885] [32mINFO [39m (9320 on DESKTOP-5RAT955): [36mserver started[39m
+    created: 1575782371495
+    started: 1575782371879
+    host: "127.0.0.1"
+    port: 1207
+    protocol: "http"
+    id: "DESKTOP-5RAT955:9320:k3wk4zhj"
+    uri: "http://127.0.0.1:1207"
+    address: "127.0.0.1"
+[1575782376549] [32mINFO [39m (9320 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575782376433:DESKTOP-5RAT955:9320:k3wk4zhj:10000",
+      "method": "get",
+      "url": "http://127.0.0.1:1207/api/tasks/1",
+      "headers": {
+        "authorization": "[Redacted]",
+        "user-agent": "PostmanRuntime/7.20.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "bf740b72-8e91-4b2b-8e4a-6d6391d081e8",
+        "host": "127.0.0.1:1207",
+        "accept-encoding": "gzip, deflate",
+        "connection": "keep-alive"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 55776
+    }
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 134,
+        "accept-ranges": "bytes"
+      }
+    }
+    responseTime: 115
+[1575782389398] [32mINFO [39m (9320 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575782389346:DESKTOP-5RAT955:9320:k3wk4zhj:10001",
+      "method": "put",
+      "url": "http://127.0.0.1:1207/api/tasks/1",
+      "headers": {
+        "content-type": "application/json",
+        "authorization": "[Redacted]",
+        "user-agent": "PostmanRuntime/7.20.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "63672746-48f2-468a-a810-8a43ba739cae",
+        "host": "127.0.0.1:1207",
+        "accept-encoding": "gzip, deflate",
+        "content-length": "56",
+        "connection": "keep-alive"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 55777
+    }
+    res: {
+      "statusCode": 202,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 143
+      }
+    }
+    responseTime: 52
+[1575782397393] [32mINFO [39m (9320 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575782397379:DESKTOP-5RAT955:9320:k3wk4zhj:10002",
+      "method": "get",
+      "url": "http://127.0.0.1:1207/api/tasks/1",
+      "headers": {
+        "authorization": "[Redacted]",
+        "user-agent": "PostmanRuntime/7.20.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "d9bd1932-58f7-4b53-bc4a-c90e4d43c718",
+        "host": "127.0.0.1:1207",
+        "accept-encoding": "gzip, deflate",
+        "connection": "keep-alive"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 55778
+    }
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 143,
+        "accept-ranges": "bytes"
+      }
+    }
+    responseTime: 14
+[1575782401446] [32mINFO [39m (9320 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575782401442:DESKTOP-5RAT955:9320:k3wk4zhj:10003",
+      "method": "get",
+      "url": "http://127.0.0.1:1207/api/tasks/1",
+      "headers": {
+        "authorization": "[Redacted]",
+        "user-agent": "PostmanRuntime/7.20.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "9445cb71-cb38-4b6c-a87c-1131cd086b01",
+        "host": "127.0.0.1:1207",
+        "accept-encoding": "gzip, deflate",
+        "connection": "keep-alive"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 55778
+    }
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 143,
+        "accept-ranges": "bytes"
+      }
+    }
+    responseTime: 4
+[1575782410912] [32mINFO [39m (9320 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575782410902:DESKTOP-5RAT955:9320:k3wk4zhj:10004",
+      "method": "delete",
+      "url": "http://127.0.0.1:1207/api/tasks/1",
+      "headers": {
+        "authorization": "[Redacted]",
+        "user-agent": "PostmanRuntime/7.20.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "b3de959b-306c-4960-b551-dedc9a854258",
+        "host": "127.0.0.1:1207",
+        "accept-encoding": "gzip, deflate",
+        "content-length": "0",
+        "connection": "keep-alive"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 55779
+    }
+    res: {
+      "statusCode": 202,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 49
+      }
+    }
+    responseTime: 10
+[1575782414063] [32mINFO [39m (9320 on DESKTOP-5RAT955): [36mrequest completed[39m
+    req: {
+      "id": "1575782414052:DESKTOP-5RAT955:9320:k3wk4zhj:10005",
+      "method": "get",
+      "url": "http://127.0.0.1:1207/api/tasks/1",
+      "headers": {
+        "authorization": "[Redacted]",
+        "user-agent": "PostmanRuntime/7.20.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "45e10526-1a25-417a-832b-cd730d038ecb",
+        "host": "127.0.0.1:1207",
+        "accept-encoding": "gzip, deflate",
+        "connection": "keep-alive"
+      },
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 55779
+    }
+    res: {
+      "statusCode": 404,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "no-cache",
+        "content-length": 60
+      }
+    }
+    responseTime: 11
